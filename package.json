@@ -4,7 +4,8 @@
   "description": "Movie database app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Tanner Simpkins",
   "license": "MIT",
