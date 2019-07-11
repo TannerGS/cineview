@@ -1,3 +1,4 @@
 {
-  "MongoURI": "mongodb+srv://tanner123:tanner123@cineview-bdxu5.mongodb.net/test?retryWrites=true&w=majority"
+  "MongoURI": "mongodb+srv://tanner123:tanner123@cineview-bdxu5.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mySecretKeyIs"
 }
