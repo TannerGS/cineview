@@ -1,5 +1,4 @@
 import React from 'react';
-// Landing
 
 const Landing = () => {
   return (
