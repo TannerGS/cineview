@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -45,6 +45,19 @@ img {
   margin-bottom: 3rem;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.container-2 {
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.container-2 div {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .card {
@@ -257,10 +270,10 @@ img {
   color: #888;
 }
 
-.form input[type='text'],
-.form input[type='email'],
-.form input[type='password'],
-.form input[type='date'],
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
 .form select,
 .form textarea {
   display: block;
@@ -270,7 +283,7 @@ img {
   border: 1px solid #ccc;
 }
 
-.form input[type='submit'],
+.form input[type="submit"],
 button {
   font: inherit;
 }
@@ -345,12 +358,12 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url('./img/main.jpg') no-repeat center center/cover;
+  background: url("./img/main.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
 .pageTitle {
-  font-family: 'Notable', sans-serif;
+  font-family: "Notable", sans-serif;
   letter-spacing: 0.2rem;
 }
 
@@ -381,10 +394,10 @@ button {
 .profile-grid {
   display: grid;
   grid-template-areas:
-    'top top'
-    'about about'
-    'exp edu'
-    'github github';
+    "top top"
+    "about about"
+    "exp edu"
+    "github github";
   grid-gap: 1rem;
 }
 
@@ -567,11 +580,11 @@ button {
 
   .profile-grid {
     grid-template-areas:
-      'top'
-      'about'
-      'exp'
-      'edu'
-      'github';
+      "top"
+      "about"
+      "exp"
+      "edu"
+      "github";
   }
 
   .profile-about .skills {

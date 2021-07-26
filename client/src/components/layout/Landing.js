@@ -1,12 +1,12 @@
 import React from 'react';
-import Slider from './Slider';
+import Search from './Search';
 
 const Landing = () => {
   return (
     <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <Slider />
+          <Search />
         </div>
       </div>
     </section>

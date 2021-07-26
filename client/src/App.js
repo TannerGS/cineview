@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Register from './components/auth/Register';
+import Watch from './components/layout/Watch' // Import watch component for testing check switch as well 
 import Login from './components/auth/Login';
 import Alert from './components/layout/Alert';
 import { Provider } from 'react-redux';
@@ -27,6 +28,9 @@ const App = () => {
         <Fragment>
           <Navbar />
           <Route exact path='/' component={Landing} />
+          <section className='container-2' >
+          <Route exact path='/watch' component={Watch} /> 
+          </section>
           <section className='container card'>
             <Alert />
             <Switch>

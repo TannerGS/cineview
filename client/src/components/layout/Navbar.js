@@ -12,7 +12,10 @@ const Navbar = () => {
       </h1>
       <ul>
         <li>
+        {/*
           <a href='profiles.html'>Watch Later</a>
+        */}
+          <Link to='/watch'>Watch Later</Link>
         </li>
         <li>
           <Link to='/register'>Register </Link>
